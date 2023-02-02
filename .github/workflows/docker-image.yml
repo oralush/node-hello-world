@@ -15,7 +15,7 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag oralush49/or_repo:node-hello-world
+      run: docker build . --file Dockerfile --tag oralush49/or_repo:node-hello-world2
       
     - name: login to docker hub
       env:
